@@ -1,0 +1,7 @@
+,vars,summa,mean_cv_scores,cv1,cv2,cv3,cv4
+0,['wday_lag_2'],4,0.519,0.442,0.4,0.456,0.777
+0,"['wday_lag_2', 'CASHBACK_STORE_2_lag_3']",2,0.514,0.433,0.405,0.452,0.768
+0,"['wday_lag_2', 'CASHBACK_STORE_2_lag_3', 'wday_lag_1']",3,0.513,0.432,0.404,0.452,0.764
+0,"['wday_lag_2', 'CASHBACK_STORE_2_lag_3', 'wday_lag_1', 'CASHBACK_STORE_2_lag_2']",2,0.51,0.431,0.403,0.454,0.753
+0,"['wday_lag_2', 'CASHBACK_STORE_2_lag_3', 'wday_lag_1', 'CASHBACK_STORE_2_lag_2', 'wday_lag_3']",2,0.51,0.428,0.402,0.453,0.755
+0,"['wday_lag_2', 'CASHBACK_STORE_2_lag_3', 'wday_lag_1', 'CASHBACK_STORE_2_lag_2', 'wday_lag_3', 'CASHBACK_STORE_2_lag_1']",4,0.506,0.426,0.395,0.452,0.753

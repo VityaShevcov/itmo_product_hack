@@ -159,7 +159,7 @@ class Kraken:
             X_train, X_test = X.iloc[train_idx], X.iloc[val_idx]
             y_train, y_test = y.iloc[train_idx], y.iloc[val_idx]
             self.estimator.fit(X_train[selected_vars], y_train)
-            error = round(self.metric(np.exp(y_test), np.exp(self.estimator.predict(X_test[selected_vars]))), round_num)
+            error = round(self.metric(y_test, self.estimator.predict(X_test[selected_vars])), round_num)
             list_scores.append(error)
         fold_scores = np.array(list_scores)
         summa = sum(fold_scores - old_scores < 0) * 1 + sum(fold_scores - old_scores > 0) * -1
